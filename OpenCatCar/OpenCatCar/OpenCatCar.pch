@@ -1,0 +1,26 @@
+//
+//  OpenCatCar.pch
+//  OpenCatCar
+//
+//  Created by qianfeng on 15-6-7.
+//  Copyright (c) 2015年 黄开. All rights reserved.
+//
+
+#ifndef OpenCatCar_OpenCatCar_pch
+#define OpenCatCar_OpenCatCar_pch
+
+#import <Availability.h>
+
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Define_.h"
+
+#define kScreenSize [UIScreen mainScreen].bounds.size
+#endif
+#endif
